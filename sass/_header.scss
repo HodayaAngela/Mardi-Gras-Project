@@ -1,0 +1,155 @@
+header {
+    // background-image: linear-gradient(to right, #961f72, #417e5f);
+    background-image: linear-gradient(to right, #f5f3f5, #490236);
+
+}
+
+.navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+.navbar-collapse {
+    margin-top:  3px;
+}
+
+
+.nav-link {
+    color: rgb(15, 1, 13);
+
+
+}
+
+.nav-link:hover {
+    color: rgb(98, 104, 13) ;
+    border-style: inset;
+    font-size:medium;
+    
+}
+
+.nav-item {
+    padding: 10px;
+    font-family: $baseFont2;
+    margin: 1px;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+    font-family: $baseFont1;
+
+}
+
+
+h1 {
+    font-family: $baseFont1;
+    font-size: 2vw;
+    // text-align: center;
+}
+
+
+h3 {
+    font-family: $baseFont2;
+    text-align: left;
+    font-size: 2vw;
+}
+
+// header Sponsors
+.sponsersPart h2{
+font-size:1.5vw;
+}
+.sponsersPart p{
+font-size:1vw;
+}
+
+#Sponsors{
+   text-align: center;
+}
+
+#Sponsors,
+.MediaPictures h1,
+.video h1,
+.ftco-section h1{
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-family: $baseFont2;
+    text-decoration-line: overline underline;
+}
+
+#Sponsors,
+.MediaPictures h1,
+.video h1,
+.ftco-section h1 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    margin-top: -80px;
+  
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 850px;
+    }
+
+    100% {
+        background-position: 850px;
+    }
+}
+
+// About page
+.About {
+    font-family: $baseFont1;
+    font-size: 6vw;
+    transform: rotate(-30deg);
+    color: rgba(255, 255, 255, 0.767);
+}
+
+// Design H2
+h2 {
+    color: hsl(0, 0%, 28%);
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: $baseFont2;
+    text-align: left;
+    font-size: 2vw;
+}
+
+h2 {
+    transition: 0.5s ease-out;
+}
+
+h2:hover :nth-child(1) {
+    margin-right: 5px;
+}
+
+h2:hover :nth-child(1):after {
+    content: "'";
+}
+
+h2:hover :nth-child(2) {
+    margin-left: 30px;
+}
+
+h2:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgb(56, 3, 49), 0 0 20px rgb(37, 4, 33), 0 0 40px rgb(46, 3, 42);
+}
+
+// contact page
+.ftco-section .label,
+.form-control {
+    font-size:1.2vw;
+}
+
+
+

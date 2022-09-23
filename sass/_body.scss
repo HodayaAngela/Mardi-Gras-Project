@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $baseFont3;
+    background: $background;
+}
+
+// Main Home
+.carousel-inner h3{
+    text-align: center;
+}
+
+// sponsers-home page
+// .sponsersPart .card{
+//     width: 260px;
+//     height:400px;
+//     margin-bottom: auto;
+    
+
+// }
+
+// index info
+#info {
+    font-size: 2vw;
+    letter-spacing: 4px;
+    font-family: $baseFont3;
+    text-align: center;
+}
+
+#info {
+    padding: 64px;
+    animation: an 3s ease-out 1 both;
+    margin-top: -80px;
+}
+
+@keyframes an {
+    from {
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
+
+// upword arrrow
+.container .arrow {
+    position: fixed;
+    top: 400px;
+    right: 60px;
+}
+
+
+
+
+

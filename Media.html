@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Mwdia | Mardi Gras New Orleans </title>
+    <link rel="shortcut icon" href="images/logoM.jpg">
+</head>
+
+
+<body>
+    <!-- Top Menu -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logoM.jpg" alt="logo">
+                </a>
+
+                <!-- hamburger menu -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse text-center fs-4" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="FAQ.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Search field -->
+                    <form class="d-flex">
+                        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary text-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <!-- Main Pictures -->
+        <section class="MediaPictures">
+            <h1 class="d-flex justify-content-center">
+                Breathtaking Pictures:
+            </h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0  text-center">
+                        <img src="images/photo1.jpg" alt="Mardi Gras mask" onclick="openModal();currentSlide(1)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0  text-center">
+                        <img src="images/photo2.jpg" alt="Mardi Gras mask" onclick="openModal();currentSlide(2)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0   text-center">
+                        <img src="images/photo3.jpg" alt="Mardi Gras mask" onclick="openModal();currentSlide(3)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0  text-center">
+                        <img src="images/photo4 .webp" alt="Mardi Gras mask" onclick="openModal();currentSlide(4)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0  text-center">
+                        <img src="images/photo5.jpg" alt="Mardi Gras mask" onclick="openModal();currentSlide(5)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0   text-center">
+                        <img src="images/photo6.webp" alt="Mardi Gras mask" onclick="openModal();currentSlide(6)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0  text-center">
+                        <img src="images/photo7.jpg" alt="Mardi Gras mask" onclick="openModal();currentSlide(7)"
+                            class="hover-shadow cursor">
+                    </div>
+                    <div class="col col-lg-3 col-md-3 col-sm-6 col-12 mb-2 p-e-0   text-center">
+                        <img src="images/photo8.jpg" alt="Mardi Gras mask" onclick="openModal();currentSlide(8)"
+                            class="hover-shadow cursor">
+                    </div>
+                </div>
+
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 /8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo1.jpg"
+                                style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo2.jpg"
+                                style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo3.jpg"
+                                style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">4 /8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo4 .webp"
+                                style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo5.jpg"
+                                style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo6.webp"
+                                style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo7.jpg"
+                                style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">8 / 8</div>
+                            <img class="img-fluid mx-auto d-block" alt="Mardi Gras mask" src="images/photo8.jpg"
+                                style="width:100%">
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main video -->
+        <section class="video">
+            <h1 class="d-flex justify-content-center mt-1">Video Clips:</h1>
+            <div class="container px-4 ">
+                <div class="row gx-5 ">
+                    <div class="col">
+                        <!--1.Mardi Gras Band  -->
+                        <iframe src="https://www.youtube.com/embed/TZv2_kHXcMk" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Mardi Gras Band</h3>
+                    </div>
+                    <div class="col">
+                        <!--2.Muses parade  -->
+                        <iframe src="https://www.youtube.com/embed/V1V_7Lg5hDI" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Muses parade</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 3.Mardi Gras Military Band -->
+                        <iframe src="https://www.youtube.com/embed/sEgUCOUPJBk" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Mardi Gras Military Band</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 4.Rolling Elvi Mardi Gras -->
+                        <iframe src="https://www.youtube.com/embed/vabOcGkvGy0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Rolling Elvi Mardi Gras</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 5.Mardi Gras Easy Chairs -->
+                        <iframe src="https://www.youtube.com/embed/DVKl-QEEL3w" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Mardi Gras Easy Chairs</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 6. Mardi Gras 2018: Live from New Orleans-->
+                        <iframe src="https://www.youtube.com/embed/h72DpretYDM" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Mardi Gras 2018: Live from New Orleans</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 7.Krewe of Rolling Elvi at Muses Parade -->
+                        <iframe src="https://www.youtube.com/embed/VVMGK4RRuOM" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Krewe of Rolling Elvi at Muses Parade</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 8.Flambeaux of Mardi Gras -->
+                        <iframe src="https://www.youtube.com/embed/nsuqLBDmUqM" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Flambeaux of Mardi Gras</h3>
+                    </div>
+                    <div class="col">
+                        <!-- 9.Krewe of Muses at Mardi Gras New Orleans -->
+                        <iframe src="https://www.youtube.com/embed/NiPvLLjTnE0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h3>Krewe of Muses at Mardi Gras New Orleans</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Arrow top page -->
+        <div class="container">
+            <div class="arrow">
+                <a href="#top"><i class="fa-solid fa-circle-arrow-up"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <!-- site footer -->
+    <footer class="bg-black text-center text-white">
+        <div class="container-fluid fluid" text-center p-3 style="background-color: rgba(184, 137, 137, 0.2);">
+            &copy; All Copyrights Reserved To Hodaya Angela Dabakarov 2022
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

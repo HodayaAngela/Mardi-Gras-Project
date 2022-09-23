@@ -1,0 +1,32 @@
+// Main FAQ 
+.FAQ p{
+    font-size: 1.2vw;
+}
+
+.FAQ .accordion-body, .accordion-button{
+    font-size: 1.2vw; 
+}
+
+.Faq .accordion-button {
+    background-color: rgba(102, 7, 73, 0.74);
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.Faq .accordion-button:hover {
+    background-color: rgba(48, 146, 35, 0.315);
+    color: black;
+}
+
+.FAQ .container {
+    width: 50%;
+    padding: 5px;
+}
+
+.accordion-item {
+    padding: 5px;
+    background-color: rgba(245, 245, 220, 0);
+    border: none;
+}
+

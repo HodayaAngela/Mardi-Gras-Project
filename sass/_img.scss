@@ -1,0 +1,264 @@
+// Main Home
+// logo
+img[src^='images/logo'] {
+
+    height: 60px;
+    width:60px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+img[src^='images/logo']:hover {
+    transform: rotate(-20deg);
+    transition: transform .5s;
+}
+
+
+// sponsers
+.sponsersPart img[src^='images/']{
+width: 230px;
+height: 130px;
+
+
+// for center 
+margin-left: auto;
+margin-right: auto;
+
+}
+//  -About page-
+
+// flag 
+#Mayor img[src^='images/orleans'] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+img[src^='images/LaToya']{ 
+ width: 100%;
+height: auto;
+// width: 300px;
+margin-bottom: 5px;
+}
+
+
+// backgrounds
+.parallax {
+    /* The image used */
+    background-image: url("../images/photo5.jpg");
+
+    /* Set a specific height */
+    min-height: 650px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/bgc.jpg");
+
+    /* Set a specific height */
+    min-height: 670px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    max-width: 100%;
+    height: auto;
+
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/bgc2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/bgc3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    max-width: 100%;
+    height: auto;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../images/bgc4.jpg");
+    /* Set a specific height */
+    min-height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+// Main Media Pictures
+.MediaPictures .row img[src^='images/photo'] {
+    // Center an Image
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    border: 5px solid white;
+    border-radius: 15px;
+    opacity: .8;
+  
+  
+}
+
+.col img[src^='images/photo']:hover {
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.mySlides img[src^='images/photo'] {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: 500px;
+    border: 2px solid white;
+ 
+}
+
+.img-fluid img[src^='images/photo'] {
+    top: -200px;
+}
+
+
+// contact page
+img[src^='images/contactUs'] {
+    width: 100%;
+    height: auto;
+ 
+    margin-top: 40px;
+
+    // Center an Image
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[src^='images/contactUs']:hover {
+
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+// Question Mark
+
+
+img[src^='images/QuestionMark'] {
+//    margin-left: 0px;
+//   margin-right: auto;
+  width: 100%;
+  height: auto;
+  width:150px;
+ 
+}
+img[src^='images/QuestionMark']:hover {
+    transition: transform 2s;
+    transform: rotateY(360deg);
+}
+.contact-wrap{
+    width:70%;  
+    margin-left: auto;
+    margin-right: auto}
+
+
