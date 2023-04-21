@@ -1,38 +1,35 @@
 // About page
-.card{
-    background-color: rgba(245, 245, 220, 0);
-    border: 0;
-    font-size: $baseSizeP;
-    font-family: $baseFont3;
+.card {
+  background-color: rgba(245, 245, 220, 0);
+  border: 0;
+  font-size: $baseSizeP;
+  font-family: $baseFont3;
 }
 
 //  Mayor
 #Mayor .btn {
-    background-color: rgba(20, 75, 41, 0.925);
-    color: rgb(240, 229, 229);
-    border: none;
-    font-size: 1.3vw;
-    
+  background-color: rgba(20, 75, 41, 0.925);
+  color: rgb(240, 229, 229);
+  border: none;
+  font-size: 1rem;
 }
 
 #Mayor .btn:hover {
-    background-color: rgba(102, 139, 14, 0.507);
-    color: black;
-    border: none;
+  background-color: rgba(102, 139, 14, 0.507);
+  color: black;
+  border: none;
 }
 
-#Mayor p{
-    font-size: 1.3vw;
-    margin-top:6px;
+#Mayor p {
+  font-size: 1rem;
+  margin-top: 6px;
 }
 
 // mayor speech
-.offcanvas{
-    max-width: 50%;
+.offcanvas {
+  max-width: 50%;
 }
-#Mayor .container{
-    width: 100%;
-height: auto;
-    
-    
+#Mayor .container {
+  width: 100%;
+  height: auto;
 }

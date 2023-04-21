@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lato:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Serif:ital,wght@1,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Serif:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap');
 .navbar-toggler {
   width: 15px;
   height: 20px;
   position: relative;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .navbar-toggler,
@@ -15,7 +15,7 @@
 .navbar-toggler-icon:focus {
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: 0;
   position: relative;
 }
@@ -35,9 +35,9 @@
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .middle-bar {
@@ -49,7 +49,7 @@
   position: absolute;
   top: 0px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .navbar-toggler.collapsed .middle-bar {
@@ -63,14 +63,14 @@
   position: absolute;
   top: 20px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 /* when navigation is clicked */
 .navbar-toggler .top-bar {
   top: inherit;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .navbar-toggler .middle-bar {
@@ -82,7 +82,7 @@
 .navbar-toggler .bottom-bar {
   top: inherit;
   -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 /* Color of 3 lines */
@@ -91,7 +91,13 @@
 }
 
 header {
-  background-image: -webkit-gradient(linear, left top, right top, from(#f5f3f5), to(#490236));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f5f3f5),
+    to(#490236)
+  );
   background-image: linear-gradient(to right, #f5f3f5, #490236);
 }
 
@@ -127,21 +133,21 @@ header {
 
 h1 {
   font-family: Henny Penny;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 h3 {
   font-family: Pattaya;
   text-align: left;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 .sponsersPart h2 {
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 .sponsersPart p {
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 #Sponsors {
@@ -152,13 +158,13 @@ h3 {
 .MediaPictures h1,
 .video h1,
 .ftco-section h1 {
-  font-size: 4vw;
+  font-size: 4rem;
   font-weight: bold;
   letter-spacing: 4px;
   cursor: pointer;
   font-family: Pattaya;
   -webkit-text-decoration-line: overline underline;
-          text-decoration-line: overline underline;
+  text-decoration-line: overline underline;
 }
 
 #Sponsors,
@@ -166,12 +172,19 @@ h3 {
 .video h1,
 .ftco-section h1 {
   padding: 64px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4d4d4d), color-stop(10%, white), color-stop(20%, #4d4d4d));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0, #4d4d4d),
+    color-stop(10%, white),
+    color-stop(20%, #4d4d4d)
+  );
   background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: shine 5s infinite linear;
-          animation: shine 5s infinite linear;
+  animation: shine 5s infinite linear;
   margin-top: -80px;
 }
 
@@ -201,9 +214,9 @@ h3 {
 
 .About {
   font-family: Henny Penny;
-  font-size: 6vw;
+  font-size: 6rem;
   -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
   color: rgba(255, 255, 255, 0.767);
 }
 
@@ -214,7 +227,7 @@ h2 {
   cursor: pointer;
   font-family: Pattaya;
   text-align: left;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 h2 {
@@ -241,14 +254,14 @@ h2:hover {
 
 .ftco-section .label,
 .form-control {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -261,7 +274,7 @@ body {
 }
 
 #info {
-  font-size: 2vw;
+  font-size: 2rem;
   letter-spacing: 4px;
   font-family: Roboto;
   text-align: center;
@@ -270,33 +283,37 @@ body {
 #info {
   padding: 64px;
   -webkit-animation: an 3s ease-out 1 both;
-          animation: an 3s ease-out 1 both;
+  animation: an 3s ease-out 1 both;
   margin-top: -80px;
 }
 
 @-webkit-keyframes an {
   from {
     opacity: 0;
-    -webkit-transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
-            transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    -webkit-transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
+    transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
   }
   to {
     opacity: 1;
     -webkit-transform: perspective(500px) translate3d(0, 0, 0);
-            transform: perspective(500px) translate3d(0, 0, 0);
+    transform: perspective(500px) translate3d(0, 0, 0);
   }
 }
 
 @keyframes an {
   from {
     opacity: 0;
-    -webkit-transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
-            transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    -webkit-transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
+    transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
   }
   to {
     opacity: 1;
     -webkit-transform: perspective(500px) translate3d(0, 0, 0);
-            transform: perspective(500px) translate3d(0, 0, 0);
+    transform: perspective(500px) translate3d(0, 0, 0);
   }
 }
 
@@ -309,7 +326,7 @@ body {
 .card {
   background-color: rgba(245, 245, 220, 0);
   border: 0;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   font-family: Roboto;
 }
 
@@ -317,7 +334,7 @@ body {
   background-color: rgba(20, 75, 41, 0.925);
   color: #f0e5e5;
   border: none;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
 }
 
 #Mayor .btn:hover {
@@ -327,7 +344,7 @@ body {
 }
 
 #Mayor p {
-  font-size: 1.3vw;
+  font-size: 1.3rem;
   margin-top: 6px;
 }
 
@@ -341,11 +358,12 @@ body {
 }
 
 .FAQ p {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
-.FAQ .accordion-body, .accordion-button {
-  font-size: 1.2vw;
+.FAQ .accordion-body,
+.accordion-button {
+  font-size: 1.2rem;
 }
 
 .Faq .accordion-button {
@@ -375,19 +393,21 @@ body {
 }
 
 .glow {
-  font-size: 4vw;
+  font-size: 2rem;
   color: rgba(12, 3, 3, 0.527);
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
-          animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #080406, 0 0 40px #36041d, 0 0 50px #1f0d16, 0 0 60px #33021b, 0 0 70px #11040a;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #080406,
+      0 0 40px #36041d, 0 0 50px #1f0d16, 0 0 60px #33021b, 0 0 70px #11040a;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #0f5320, 0 0 40px #045719, 0 0 50px #034918, 0 0 60px #076129, 0 0 70px #065530, 0 0 80px #04442a;
+    text-shadow: 0 0 20px #fff, 0 0 30px #0f5320, 0 0 40px #045719,
+      0 0 50px #034918, 0 0 60px #076129, 0 0 70px #065530, 0 0 80px #04442a;
   }
 }
 
@@ -396,7 +416,7 @@ body {
 }
 
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -471,8 +491,8 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-user-select: none;
 }
 
@@ -516,8 +536,9 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .myModal {
@@ -526,7 +547,7 @@ img.hover-shadow {
 }
 
 .video h3 {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -547,7 +568,7 @@ textarea {
 }
 
 .form-group .btn {
-  font-size: 1.3vw;
+  font-size: 1.3rem;
 }
 
 .question {
@@ -584,11 +605,11 @@ textarea {
   border-radius: 15px 5px 15px 5px;
   position: relative;
   -webkit-animation: mymove 55s infinite;
-          animation: mymove 55s infinite;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  animation: mymove 55s infinite;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
   /* Animation */
   margin: 0 auto;
   opacity: 0.8;
@@ -596,7 +617,7 @@ textarea {
 
 #quizImage img:hover {
   -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   margin-top: 20px;
   opacity: 1;
 }
@@ -628,11 +649,11 @@ img[src^='images/logo'] {
 
 img[src^='images/logo']:hover {
   -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s;
+  transform: rotate(-20deg);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .sponsersPart img[src^='images/'] {
@@ -658,7 +679,7 @@ img[src^='images/LaToya'] {
 
 .parallax {
   /* The image used */
-  background-image: url("../images/photo5.jpg");
+  background-image: url('../images/photo5.jpg');
   /* Set a specific height */
   min-height: 650px;
   /* Create the parallax scrolling effect */
@@ -673,7 +694,7 @@ img[src^='images/LaToya'] {
 
 .parallax1 {
   /* The image used */
-  background-image: url("../images/bgc.jpg");
+  background-image: url('../images/bgc.jpg');
   /* Set a specific height */
   min-height: 670px;
   /* Create the parallax scrolling effect */
@@ -688,7 +709,7 @@ img[src^='images/LaToya'] {
 
 .parallax2 {
   /* The image used */
-  background-image: url("../images/bgc2.jpg");
+  background-image: url('../images/bgc2.jpg');
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -703,7 +724,7 @@ img[src^='images/LaToya'] {
 
 .parallax3 {
   /* The image used */
-  background-image: url("../images/bgc3.jpg");
+  background-image: url('../images/bgc3.jpg');
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -718,7 +739,7 @@ img[src^='images/LaToya'] {
 
 .parallax4 {
   /* The image used */
-  background-image: url("../images/bgc4.jpg");
+  background-image: url('../images/bgc4.jpg');
   /* Set a specific height */
   min-height: 1000px;
   /* Create the parallax scrolling effect */
@@ -742,7 +763,7 @@ img[src^='images/LaToya'] {
   cursor: pointer;
   border: 5px solid white;
   border-radius: 15px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .col img[src^='images/photo']:hover {
@@ -778,103 +799,103 @@ img[src^='images/contactUs'] {
 img[src^='images/contactUs']:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   -webkit-animation: shake 0.5s;
-          animation: shake 0.5s;
+  animation: shake 0.5s;
   /* When the animation is finished, start again */
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: translate(1px, 1px) rotate(0deg);
-            transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
     -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-            transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
     -webkit-transform: translate(-3px, 0px) rotate(1deg);
-            transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
     -webkit-transform: translate(3px, 2px) rotate(0deg);
-            transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
     -webkit-transform: translate(1px, -1px) rotate(1deg);
-            transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
     -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-            transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-1px, 2px) rotate(-1deg);
   }
   60% {
     -webkit-transform: translate(-3px, 1px) rotate(0deg);
-            transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
     -webkit-transform: translate(3px, 1px) rotate(-1deg);
-            transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
     -webkit-transform: translate(-1px, -1px) rotate(1deg);
-            transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-1px, -1px) rotate(1deg);
   }
   90% {
     -webkit-transform: translate(1px, 2px) rotate(0deg);
-            transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
-            transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 
 @keyframes shake {
   0% {
     -webkit-transform: translate(1px, 1px) rotate(0deg);
-            transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(1px, 1px) rotate(0deg);
   }
   10% {
     -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-            transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-1px, -2px) rotate(-1deg);
   }
   20% {
     -webkit-transform: translate(-3px, 0px) rotate(1deg);
-            transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-3px, 0px) rotate(1deg);
   }
   30% {
     -webkit-transform: translate(3px, 2px) rotate(0deg);
-            transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(3px, 2px) rotate(0deg);
   }
   40% {
     -webkit-transform: translate(1px, -1px) rotate(1deg);
-            transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(1px, -1px) rotate(1deg);
   }
   50% {
     -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-            transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-1px, 2px) rotate(-1deg);
   }
   60% {
     -webkit-transform: translate(-3px, 1px) rotate(0deg);
-            transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-3px, 1px) rotate(0deg);
   }
   70% {
     -webkit-transform: translate(3px, 1px) rotate(-1deg);
-            transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(3px, 1px) rotate(-1deg);
   }
   80% {
     -webkit-transform: translate(-1px, -1px) rotate(1deg);
-            transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-1px, -1px) rotate(1deg);
   }
   90% {
     -webkit-transform: translate(1px, 2px) rotate(0deg);
-            transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(1px, 2px) rotate(0deg);
   }
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
-            transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(1px, -2px) rotate(-1deg);
   }
 }
 
@@ -890,7 +911,7 @@ img[src^='images/QuestionMark']:hover {
   transition: transform 2s;
   transition: transform 2s, -webkit-transform 2s;
   -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
+  transform: rotateY(360deg);
 }
 
 .contact-wrap {
@@ -901,9 +922,15 @@ img[src^='images/QuestionMark']:hover {
 
 .AboutF .fluid {
   margin-top: 0px;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   font-family: Roboto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#961f72), to(#417e5f));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#961f72),
+    to(#417e5f)
+  );
   background-image: linear-gradient(to right, #961f72, #417e5f);
   color: white;
   text-align: center;
@@ -912,9 +939,15 @@ img[src^='images/QuestionMark']:hover {
 
 footer .fluid {
   margin-top: 100px;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   font-family: Roboto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#961f72), to(#417e5f));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#961f72),
+    to(#417e5f)
+  );
   background-image: linear-gradient(to right, #961f72, #417e5f);
   color: white;
   text-align: center;
